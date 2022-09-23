@@ -1,0 +1,110 @@
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  
+        margin:-90px 0px 0px -198px;  
+                                      
+    }
+}
+body
+{
+	position: fixed; 
+	margin-top: 300px;
+	margin-bottom: 150px;
+	font-family: "Lato", sans-serif;
+	height:200px;
+	position:center;
+	
+}
+
+
+.main {
+  margin-left: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h2 {
+    font-size:25px;
+    font-weight:normal;
+    margin-bottom: 30px;
+    overflow:visible;
+    padding:20px;
+    text-align:center;
+	border-radius: 20px;
+	font-family: courier;
+}
+
+h1
+{
+	font-size:22px;
+    font-weight:normal;
+    margin-bottom: 30px;
+    overflow:visible;
+    padding:20px;
+    text-align:center;
+	border-radius: 20px;
+	margin-left:30px;
+	
+}
+
+span.c {
+  display: incline; 
+  width: 100px;
+  height: 100px;
+  padding: 5px; 
+  background-color: orange; 
+  border-radius:30px;
+   
+}
+
+
+.circle-text {
+    display: table-cell;
+    height: 240px; 
+    width: 260px;
+    text-align: center;
+    vertical-align: middle;
+    background: #000000;
+    color: red;
+	border-radius:60%;
+	position:center;
+    
+}
+
+.button
+{ 
+	 font-size: 25px;
+	 font-family:courier;
+	 color:#000000; 
+	 padding: 15px 20px;
+	 border: 2px solid #000000;
+	 border-radius: 8px;
+	 margin-left:120px;
+	 background-color: #ffffcc;
+	 border-color: rgba(0,0,0,0.3);
+	 color: #000000;
+	 font-weight:bold;
+	 
+}
+	
+.button:hover {
+	background-color: #4F87A2;
+	border-color: rgba(0,0,0,0.5);
+}
+
+
+
+ 
+
+   
+   
+ 
